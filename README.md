@@ -43,3 +43,7 @@ void setup() {
 void loop() {
   delay(2000);
 }
+```
+
+## 🎥 Demonstration Video
+* **Video File:** [Watch the System Operation Video](documentation/demo_video.md)
