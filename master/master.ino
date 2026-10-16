@@ -3,12 +3,11 @@
 
 const int BUTTON_PIN = 18;
 
-// Put your verified slave MAC addresses here (lowercase)
 const char *SLAVE_MACS[] = { "cc:db:a7:3d:aa:22", "3c:8a:1f:a3:59:e2" };
 
 const char *SERVICE_UUIDS[] = {
-  "2b92513e-afed-40ac-afa6-e54c63acdceb", // Slave 1[cite: 2]
-  "2b92513e-afed-40ac-afa6-e54c63acdcec"  // Slave 2[cite: 1]
+  "2b92513e-afed-40ac-afa6-e54c63acdceb", // Slave 1
+  "2b92513e-afed-40ac-afa6-e54c63acdcec"  // Slave 2
 };
 const char *CHAR_UUID = "ea3d7c32-0013-4447-8f7b-47b959b5cddc";[cite: 1, 2, 3]
 
